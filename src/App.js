@@ -1,3 +1,4 @@
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -9,6 +10,7 @@ import Achievements from "./components/achievement";
 
 function App() {
   return (
+    
     <div>
       <Navbar />
       <Home />
@@ -18,6 +20,7 @@ function App() {
       <Work />
       <Contact />
     </div>
+   
   );
 }
 

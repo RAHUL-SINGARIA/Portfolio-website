@@ -2,6 +2,10 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
+  const navigateToWork = () => {
+    const workElement = document.getElementById('work');
+    workElement.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
       {/* Container */}
@@ -17,11 +21,12 @@ const Home = () => {
         I'm a passionate student driven by software development, specializing in efficient solutions through mastery of algorithms. Join me in my journey to positively transform the world through innovative coding projects and experiences.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button onClick={navigateToWork}  className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
+            
           </button>
         </div>
       </div>
