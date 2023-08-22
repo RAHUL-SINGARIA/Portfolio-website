@@ -1,5 +1,5 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+// import WorkIm from '../assets/projects/workImg.jpeg'
+// import RealEst from '../assets/projects/realestate.jpg'
 import Expense from '../assets/projects/expense.png'
 import Chatbot from '../assets/projects/chatbot.png'
 import Case1 from '../assets/projects/case1.png'
